@@ -1,0 +1,22 @@
+Preprocesador: se lee solo una vez el programa, quita todos los espacios/comentarios y sustituye las constantes por el número relacionado con dicha constante.
+
+Compilador: traduce todo a código máquina y lo enlaza/linka, es decir,si hay más de un archivo calcula sus distancias medidas en bytes.
+
+Librería standar: Es una serie de funciones hechas que nos permiten hacer distintas cosas.
+Palabras reservadas: Son una de las 32 palabras que están incluidas en el lenguaje. Salen en azul.
+
+int main(){}: Número del valor del retorno.
+
+bool: Verdadero o falso.
+
+Los 5 mandamientos de la programación.
+
+1- Entender el enunciado del problema.
+
+2- Hacer el programa a mano como si no existiese el ordenador.(5 veces)
+
+3- Abstraer el algoritmo.
+
+4- Codificar.
+
+5- Hacer un seguimiento.
