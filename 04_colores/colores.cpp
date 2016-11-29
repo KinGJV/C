@@ -59,7 +59,8 @@ int color_1, color_2, color_3;
 
 		printf("tu color es el naranja\n");
 
-	else
+	if(color_1 == no and color_2 == no and color_3 == no)
+		
 		printf("tu color es el blanco\n");
 return EXIT_SUCCESS;
 }
