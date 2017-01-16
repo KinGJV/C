@@ -5,7 +5,7 @@ int main(){
 	int decimal;
 
 	printf("Decimal: ");
-	scanf(" %i", &decimal); //& significa la direccion de
+	scanf(" %i", &decimal); //& significa la direccion de , el espacio %i significa números y sólo números enteros que entran por el pipe
 
 	// Hacer
 	//imprimir decimal % 2
