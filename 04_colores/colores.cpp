@@ -59,7 +59,12 @@ int color_1, color_2, color_3;
 
 		printf("tu color es el naranja\n");
 
+<<<<<<< HEAD
 	if( color_1 == no and color_2 == no and color_3 == no)
+=======
+	if(color_1 == no and color_2 == no and color_3 == no)
+		
+>>>>>>> 05f490e1a9b3c4a1c189906a187c845f674ed3cb
 		printf("tu color es el blanco\n");
 return EXIT_SUCCESS;
 }
