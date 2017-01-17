@@ -3,18 +3,33 @@
 
 int main(int argc ,char *argv[]){
 
-double a, b,resultado;
+int numero, encender = 0 , i = 7, binario[7] = {00000000};
 
-    printf("selecciona el número que quieres:\n");
+    printf("Escribe un número:\n");
 
-    scanf(" %lf", &a);
+    scanf(" %i", &numero);
 
-    printf("selecciona el bit que quieres apagar:\n");
 
-    scanf(" %lf", &b);
+    do{
+    binario[i] = numero %2;
 
-    resultado = a || !b;
+    numero /= 2;
 
-    printf(" %lf", resultado);
+    i--;
+    }while(numero > 0);
+
+    for(int a = 0; a < 8; a++){
+	    printf(" %i", binario[a]);
+    }
+
+    printf("Di el bit que quieres encender\n:");
+
+    scanf(" %i", &encender);
+
+    binario[encender] = 1;
+
+    for(int x = 0; x < 8; x++){
+	    printf(" %i", binario[x]);
+    }
 	return EXIT_SUCCESS;
 }
