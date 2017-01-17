@@ -1,0 +1,11 @@
+break para poner punto de ruptura
+
+list muestra el listado del programa
+
+next ejecuta instrucciones enteras
+
+step ejecuta instrucción y se para en ella
+
+run ejecuta el programa
+
+print muestra el contenido de las variables
