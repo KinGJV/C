@@ -31,8 +31,7 @@ int main(int argc, char *argv[]){
 
     printf(" Escribe la palabra que quieras cifrar:");
 
-    gets(mensaje);
-
+   gets(mensaje);
     for(char *letra = mensaje ; *letra != '\0'; letra++)
         printf("%c", codigo(*letra, cod) );
 
